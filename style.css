@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://d.newsweek.com/en/full/2096815/astronaut-spaceman-do-spacewalk.jpg'); /* Specify the URL of your image */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.card {
+    width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(255, 121, 242, 0.8); /* Changed to rgba for transparency */
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #e53935;
+}
+
+p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.heart {
+    color: #e53935;
+}
+
+.poem {
+    font-style: italic;
+    color: #666;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: black;
+}
+
+.pictures img {
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+} 
